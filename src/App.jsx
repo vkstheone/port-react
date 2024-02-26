@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import ToggleMenu from './components/ToggleMenu'
 import './assets/toggleMenu.css'
+import Section from './components/Section'
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <div className="">
         <Header />
         <ToggleMenu />
+        <Section />
       </div>
   )
 }
