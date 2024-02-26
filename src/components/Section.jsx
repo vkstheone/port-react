@@ -18,28 +18,29 @@ function Section(){
             </div>
             <div className="section_text">
                 <p className="section_text_p1">Olá Eu sou</p>
-                <h1 className="title">ViniCius Souza</h1>
+                <h1 className="title">Vinicius Souza</h1>
                 <p className="section_text_p2">Front-end Developer</p>
                     <div className="btn-container">
                         <button
                         className='btn btn-color-2'
                         onClick={''}
                         >Baixar Curriculo</button>
-                    </div>
-                    <div className="btn-container">
                         <button
                         className='btn btn-color-1'
                         onClick={"  "}
                         >Baixar Curriculo</button>
+                    
                     </div>
+                    
                
                 <div className="socials-container">
-                    <img src='' 
+                   
+                    <img src='src/assets/imgs/linkedin.png' 
                         alt="Meu Perfil no likendin"
                         className='icon'
                         onclick={''}
                     />
-                    <img src='' 
+                    <img src='src/assets/imgs/github.png' 
                         alt="Meu Perfil Github"
                         className='icon'
                         onclick={''}
